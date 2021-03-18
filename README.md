@@ -1,5 +1,5 @@
 # Pruned-YOLO
-Using model pruning method to obtain compact models Pruned-YOLOv5 based on YOLOv5.
+Using model pruning method to obtain compact models, namely Pruned-YOLOv5, based on YOLOv5.
 
 ## NOTICE:
 
