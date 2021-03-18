@@ -14,7 +14,7 @@ Using model pruning method to obtain compact models, namely Pruned-YOLOv5, based
 5.These two steps are iteratively applied until the compression model reaches the budget target.
 
 
-## Results
+## Results:
 ![image](https://github.com/jiachengjiacheng/Pruned-YOLO/blob/main/results/ablationResults_VisDrone2018_valset.png)
 Fig. 1: The ablation results of Pruned-YOLOv3 (left) and Pruned-YOLOv5 (right) on the VisDrone dataset. R, S and C represent the reweighting of channel important factors by convolution
 kernel parameters, soft mask strategy and sparsity coefficient cosine decay respectively.
