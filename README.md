@@ -3,7 +3,7 @@ Using model pruning method to obtain compact models Pruned-YOLOv5 based on YOLOv
 
 ## NOTICE:
 
-1.This project is based on *[ultralytics/yolov5](https://github.com/ultralytics/yolov5)*. Install it first. Then, use the model configuration file (*coco_yolov5l.yaml*) and network module definition file (*common.py*) provided here to replace the original corresponding files.
+1.This project is based on *[ultralytics/yolov5](https://github.com/ultralytics/yolov5)*. Place install it first. Then, use the model configuration file (*coco_yolov5l.yaml*) and network module definition file (*common.py*) provided here to replace the original corresponding files.
 
 2.Please place *prune_channel_v5_weightingByKernel.py* and *prune_layer_v5_weightingByKernel.py* in the home directory (*/yolov5/*). The former is used for channel pruning and the latter for layer pruning. The model pruning can be done by them.
 
