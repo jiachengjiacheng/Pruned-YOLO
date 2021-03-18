@@ -15,13 +15,10 @@ Using model pruning method to obtain compact models, namely Pruned-YOLOv5, based
 
 
 ## Results:
-![image](https://github.com/jiachengjiacheng/Pruned-YOLO/blob/main/results/ablationResults_VisDrone2018_valset.png)
-Fig. 1: The ablation results of Pruned-YOLOv3 (left) and Pruned-YOLOv5 (right) on the VisDrone dataset. R, S and C represent the reweighting of channel important factors by convolution
-kernel parameters, soft mask strategy and sparsity coefficient cosine decay respectively.
 
 <img src="https://github.com/jiachengjiacheng/Pruned-YOLO/blob/main/results/results_VisDrone2018_valset.png" width="450" height="300" alt="lll"/><br/>
-Fig. 2: Comparison of the Pruned-YOLO and other stateof-the-art object detectors on the VisDrone dataset. Pruned-YOLO has better parameter/accuracy trade-off than the others.
+Fig. 1: Comparison of the Pruned-YOLO and other stateof-the-art object detectors on the VisDrone dataset. Pruned-YOLO has better parameter/accuracy trade-off than the others.
 
 <img src="https://github.com/jiachengjiacheng/Pruned-YOLO/blob/main/results/results_coco2017_valset.JPG" width="427" height="357" alt="222"/><br/>
-Fig. 3: Detection performance on the COCO 2017 val set. These models are compared in terms of parameters, BFLOPs and accuracy. Pruned-YOLOv5 achieves excellent performance in
+Fig. 2: Detection performance on the COCO 2017 val set. These models are compared in terms of parameters, BFLOPs and accuracy. Pruned-YOLOv5 achieves excellent performance in
 the balance of parameters, calculation and accuracy.
