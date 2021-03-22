@@ -19,6 +19,6 @@ Using model pruning method to obtain compact models, namely Pruned-YOLOv5, based
 <img src="https://github.com/jiachengjiacheng/Pruned-YOLO/blob/main/results/results_VisDrone2018_valset.png" width="450" height="300" alt="lll"/><br/>
 Fig. 1: Comparison of the Pruned-YOLO and other state-of-the-art object detectors on the VisDrone dataset. Pruned-YOLO has better parameter/accuracy trade-off than the others.
 
-<img src="https://github.com/jiachengjiacheng/Pruned-YOLO/blob/main/results/results_coco2017_valset.JPG" width="427" height="357" alt="222"/><br/>
+<img src="https://github.com/jiachengjiacheng/Pruned-YOLO/blob/main/results/results_coco2017_val.JPG" width="569" height="476" alt="222"/><br/>
 Fig. 2: Detection performance on the COCO 2017 val set. These models are compared in terms of parameters, BFLOPs and accuracy. Pruned-YOLOv5 achieves excellent performance in
 the balance of parameters, calculation and accuracy.
