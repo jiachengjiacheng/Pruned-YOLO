@@ -485,7 +485,7 @@ if __name__ == '__main__':
     parser.add_argument('--quad', action='store_true', help='quad dataloader')
     ###
     parser.add_argument('--sr', action='store_true', help='Sparsity Training or not')
-    parser.add_argument('--s', type=float, default=0.0001, help='scale coefficient in updateBN')
+    parser.add_argument('--s', type=float, default=0.1, help='scale coefficient in updateBN')
     parser.add_argument('--sr_cos', action='store_true', help='Cosine Sparsity rate')
     opt = parser.parse_args()
 
